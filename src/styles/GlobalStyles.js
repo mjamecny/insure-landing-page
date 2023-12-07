@@ -23,7 +23,7 @@ html {
 }
 
 body {
-  font-family: "DM Serif Display", "Karla" sans-serif;
+  font-family:  "Karla","DM Serif Display", sans-serif;
   color: var(--color-dark-grayish-violet);
   min-height: 100vh;
   line-height: 1.5;
