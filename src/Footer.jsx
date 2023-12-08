@@ -7,11 +7,11 @@ const StyledFooter = styled.footer`
   background-repeat: no-repeat;
   background-size: contain;
   padding: 6.4rem 2.4rem;
+  margin-top: 8rem;
 
   @media (min-width: 40em) {
     background: url("bg-pattern-footer-desktop.svg"),
       var(--color-very-light-gray);
-
     background-repeat: no-repeat;
   }
 `
