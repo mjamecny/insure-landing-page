@@ -30,6 +30,10 @@ body {
   font-size: 1.6rem;
 }
 
+#root{
+  position: relative;
+}
+
 input,
 button,
 textarea,
