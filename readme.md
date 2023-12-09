@@ -30,7 +30,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/insure-landing-page-with-react-zeFwFCgs_k)
 - Live Site URL: [Netlify](https://fm-challenge-insure-landing.netlify.app)
 
 ## My process
