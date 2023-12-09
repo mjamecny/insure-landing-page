@@ -1,11 +1,10 @@
 import styled from "styled-components"
 
 const StyledHero = styled.section`
-  background: url("../public/bg-pattern-intro-left-mobile.svg"),
-    var(--color-dark-violet);
+  background: url("bg-pattern-intro-left-mobile.svg"), var(--color-dark-violet);
 
   @media (min-width: 64em) {
-    background: url("../public/bg-pattern-intro-right-desktop.svg"),
+    background: url("bg-pattern-intro-right-desktop.svg"),
       var(--color-dark-violet);
     background-repeat: no-repeat;
     background-position: top right;
@@ -35,8 +34,7 @@ const HeroContainer = styled.div`
 `
 
 const Content = styled.div`
-  background: url("../public/bg-pattern-intro-left-mobile.svg"),
-    var(--color-dark-violet);
+  background: url("bg-pattern-intro-left-mobile.svg"), var(--color-dark-violet);
   background-repeat: no-repeat;
   padding: 6.4rem 2.4rem;
   display: flex;
@@ -117,12 +115,9 @@ const Button = styled.button`
 export default function Hero() {
   return (
     <StyledHero>
-      <ImageBg
-        src="../public/bg-pattern-intro-right-desktop.svg"
-        alt="bg pattern"
-      />
+      <ImageBg src="bg-pattern-intro-right-desktop.svg" alt="bg pattern" />
       <HeroContainer>
-        <HeroImage src="../public/image-intro-mobile.jpg" alt="hero image" />
+        <HeroImage src="image-intro-mobile.jpg" alt="hero image" />
 
         <Content>
           <HeroDecoration></HeroDecoration>

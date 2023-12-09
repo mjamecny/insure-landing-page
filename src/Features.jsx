@@ -83,7 +83,7 @@ export default function Features() {
         <Heading>We’re different</Heading>
         <CardsContainer>
           <FeatureCard>
-            <FeatureIcon src="../public/icon-snappy-process.svg" />
+            <FeatureIcon src="icon-snappy-process.svg" />
             <FeatureHeading>Snappy Process</FeatureHeading>
             <FeatureText>
               Our application process can be completed in minutes, not hours.
@@ -91,7 +91,7 @@ export default function Features() {
             </FeatureText>
           </FeatureCard>
           <FeatureCard>
-            <FeatureIcon src="../public/icon-affordable-prices.svg" />
+            <FeatureIcon src="icon-affordable-prices.svg" />
             <FeatureHeading>Affordable Prices</FeatureHeading>
             <FeatureText>
               We don’t want you worrying about high monthly costs. Our prices
@@ -99,7 +99,7 @@ export default function Features() {
             </FeatureText>
           </FeatureCard>
           <FeatureCard>
-            <FeatureIcon src="../public/icon-people-first.svg" />
+            <FeatureIcon src="icon-people-first.svg" />
             <FeatureHeading>People First</FeatureHeading>
             <FeatureText>
               Our plans aren’t full of conditions and clauses to prevent

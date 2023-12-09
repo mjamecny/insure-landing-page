@@ -123,14 +123,14 @@ export default function Header() {
         <Logo />
         {!isOpen && (
           <Hamburger
-            src="../public/icon-hamburger.svg"
+            src="icon-hamburger.svg"
             alt="hamburger icon"
             onClick={() => setIsOpen(true)}
           />
         )}
         {isOpen && (
           <CloseButton
-            src="../public/icon-close.svg"
+            src="icon-close.svg"
             alt="hamburger icon"
             onClick={() => setIsOpen(false)}
           />
